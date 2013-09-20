@@ -26,7 +26,7 @@
 
             <div id="scene">
                 <div id="keyboard">
-                    <figure class="key-top top left">esc</figure>
+                    <figure class="key-top top left key-esc">esc</figure>
                     <figure class="key-top top"><i class="icon-brightness"></i><span>F1</span></figure>
                     <figure class="key-top top"><i class="icon-brightness"></i><span>F2</span></figure>
                     <figure class="key-top top"><i class="icon-personna"></i><span>F3</span></figure>
@@ -41,76 +41,76 @@
                     <figure class="key-top top"><i class="icon-volume_up"></i><span>F12</span></figure>
                     <figure class="key-top top right"><i class="icon-eject"></i></figure>
 
-                    <figure class="key-tilde left">~<br>`</figure>
-                    <figure class="key-number">!<br>1</figure>
-                    <figure class="key-number">@<br>2</figure>
-                    <figure class="key-number">#<br>3</figure>
-                    <figure class="key-number">$<br>4</figure>
-                    <figure class="key-number">%<br>5</figure>
-                    <figure class="key-number">^<br>6</figure>
-                    <figure class="key-number">&<br>7</figure>
-                    <figure class="key-number">*<br>8</figure>
-                    <figure class="key-number">(<br>9</figure>
-                    <figure class="key-number">)<br>0</figure>
-                    <figure class="key-number">-<br>-</figure>
-                    <figure class="key-number">+<br>=</figure>
+                    <figure class="key-tilde left press-tilde">~<br>`</figure>
+                    <figure class="key-number key-1">!<br>1</figure>
+                    <figure class="key-number key-2">@<br>2</figure>
+                    <figure class="key-number key-3">#<br>3</figure>
+                    <figure class="key-number key-4">$<br>4</figure>
+                    <figure class="key-number key-5">%<br>5</figure>
+                    <figure class="key-number key-6">^<br>6</figure>
+                    <figure class="key-number key-7">&<br>7</figure>
+                    <figure class="key-number key-8">*<br>8</figure>
+                    <figure class="key-number key-9">(<br>9</figure>
+                    <figure class="key-number key-0">)<br>0</figure>
+                    <figure class="key-number key-minus">-<br>-</figure>
+                    <figure class="key-number key-plus">+<br>=</figure>
                     <figure class="key-delete right">delete</figure>
                     
-                    <figure class="key-tab left">tab</figure>
+                    <figure class="key-tab left press-tab">tab</figure>
                     <figure class="key-letter letter-q">Q</figure>
-                    <figure class="key-letter">W</figure>
-                    <figure class="key-letter">E</figure>
-                    <figure class="key-letter">R</figure>
-                    <figure class="key-letter">T</figure>
-                    <figure class="key-letter">Y</figure>
-                    <figure class="key-letter">U</figure>
-                    <figure class="key-letter">I</figure>
-                    <figure class="key-letter">O</figure>
-                    <figure class="key-letter">P</figure>
-                    <figure class="key-number">{<br>[</figure>
-                    <figure class="key-number">}<br>]</figure>
-                    <figure class="key-number right">|<br>\</figure>
+                    <figure class="key-letter letter-w">W</figure>
+                    <figure class="key-letter letter-e">E</figure>
+                    <figure class="key-letter letter-r">R</figure>
+                    <figure class="key-letter letter-t">T</figure>
+                    <figure class="key-letter letter-y">Y</figure>
+                    <figure class="key-letter letter-u">U</figure>
+                    <figure class="key-letter letter-i">I</figure>
+                    <figure class="key-letter letter-o">O</figure>
+                    <figure class="key-letter letter-p">P</figure>
+                    <figure class="key-number press-left-bracket">{<br>[</figure>
+                    <figure class="key-number press-right-bracket">}<br>]</figure>
+                    <figure class="key-number right press-slash">|<br>\</figure>
 
-                    <figure class="key-caps left">caps lock</figure>
-                    <figure class="key-letter">A</figure>
-                    <figure class="key-letter">S</figure>
-                    <figure class="key-letter">D</figure>
-                    <figure class="key-letter">F</figure>
-                    <figure class="key-letter">G</figure>
-                    <figure class="key-letter">H</figure>
-                    <figure class="key-letter">J</figure>
-                    <figure class="key-letter">K</figure>
-                    <figure class="key-letter">L</figure>
-                    <figure class="key-number">:<br>;</figure>
-                    <figure class="key-number">"<br>'</figure>
-                    <figure class="key-enter right">return</figure>
+                    <figure class="key-caps left press-caps">caps lock</figure>
+                    <figure class="key-letter letter-a">A</figure>
+                    <figure class="key-letter letter-s">S</figure>
+                    <figure class="key-letter letter-d">D</figure>
+                    <figure class="key-letter letter-f">F</figure>
+                    <figure class="key-letter letter-g">G</figure>
+                    <figure class="key-letter letter-h">H</figure>
+                    <figure class="key-letter letter-j">J</figure>
+                    <figure class="key-letter letter-k">K</figure>
+                    <figure class="key-letter letter-l">L</figure>
+                    <figure class="key-number press-colon">:<br>;</figure>
+                    <figure class="key-number press-quote">"<br>'</figure>
+                    <figure class="key-enter right press-return">return</figure>
 
-                    <figure class="key-shift left">shift</figure>
-                    <figure class="key-letter">Z</figure>
-                    <figure class="key-letter">X</figure>
-                    <figure class="key-letter">C</figure>
-                    <figure class="key-letter">V</figure>
-                    <figure class="key-letter">B</figure>
-                    <figure class="key-letter">N</figure>
-                    <figure class="key-letter">M</figure>
-                    <figure class="key-number"><<br>,</figure>
-                    <figure class="key-number">><br>.</figure>
-                    <figure class="key-number">?<br>/</figure>
+                    <figure class="key-shift left press-shift">shift</figure>
+                    <figure class="key-letter letter-z">Z</figure>
+                    <figure class="key-letter letter-x">X</figure>
+                    <figure class="key-letter letter-c">C</figure>
+                    <figure class="key-letter letter-v">V</figure>
+                    <figure class="key-letter letter-b">B</figure>
+                    <figure class="key-letter letter-n">N</figure>
+                    <figure class="key-letter letter-m">M</figure>
+                    <figure class="key-number press-comma"><<br>,</figure>
+                    <figure class="key-number press-dot">><br>.</figure>
+                    <figure class="key-number press-question">?<br>/</figure>
                     <figure class="key-shift-right right">shift</figure>
 
                     <figure class="key-command fn left">fn</figure>
-                    <figure class="key-command ctrl">ctrl</figure>
-                    <figure class="key-command alt"><span>alt</span>option</figure>
-                    <figure class="key-command cmd">command <i class="icon-command righty"></i></figure>
-                    <figure class="key-spacebar"></figure>
+                    <figure class="key-command ctrl press-ctrl">ctrl</figure>
+                    <figure class="key-command alt press-option"><span>alt</span>option</figure>
+                    <figure class="key-command cmd press-command">command <i class="icon-command righty"></i></figure>
+                    <figure class="key-spacebar press-spacebar"></figure>
                     <figure class="key-command cmd">command <i class="icon-command lefty"></i></figure>
                     <figure class="key-command alt"><span>alt</span>option</figure>
-                    <figure class="arrow-left"><i class="icon-arrow_left"></i></figure>
+                    <figure class="arrow-left press-left"><i class="icon-arrow_left"></i></figure>
                     <div class="arrows">
-                        <figure class="arrow-top"><i class="icon-arrow_up"></i></figure>
-                        <figure class="arrow-bottom"><i class="icon-arrow_down"></i></figure>
+                        <figure class="arrow-top press-up"><i class="icon-arrow_up"></i></figure>
+                        <figure class="arrow-bottom press-down"><i class="icon-arrow_down"></i></figure>
                     </div>
-                    <figure class="arrow-right"><i class="icon-arrow_right"></i></figure>
+                    <figure class="arrow-right press-right"><i class="icon-arrow_right"></i></figure>
                 </div>
             </div>
 
