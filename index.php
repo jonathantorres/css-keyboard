@@ -117,8 +117,8 @@
             <p class="credits">Made just for fun by: <a href="http://twitter.com/torres_jonathan" target="_blank">@torres_jonathan</a></p>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/jquery-1.10.2.min.map"></script>
         <script src="js/plugins.js"></script>
         <script src="js/vendor/greensock/TweenMax.min.js"></script>
         <script src="js/Keyboard.js"></script>
