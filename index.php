@@ -22,7 +22,6 @@
 
         <div class="container">
             <h1 class="main">CSS Keyboard</h1>
-            <h4 class="tagline">Anything you type will be displayed here. Type away!</h4>
 
             <div id="scene">
                 <div id="keyboard">
