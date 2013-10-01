@@ -17,8 +17,6 @@
      * Animates the pressed key
      */
     var animateKey = function(key, startPosition) {
-        console.log('lenght: ' + $('.' + key + '-copy').length);
-
         if ($('.' + key + '-copy').length === 0) {
             $originalLetter = $('.' + key);
             $animatedLetter = $originalLetter.clone().addClass(key + '-copy');
@@ -46,8 +44,6 @@
      * Execute when a key it's pressed
      */
     var onKeyUp = function(e) {
-        console.log('keyCode: ' + e.keyCode);
-
         switch(e.keyCode) {
             case 27 : // esc
                 animateKey('key-esc', { position : 'absolute', top : '42px', left : '15px' });
